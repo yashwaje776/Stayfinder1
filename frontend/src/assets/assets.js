@@ -45,6 +45,7 @@ import entrance from "./entrance.svg"
 import sch from "./sch.svg"
 import dropdown from "./dropdown_icon.svg"
 import upload_area from './upload_area.png'
+import heroImage from "./heroImage.png"
 
 
 
@@ -81,7 +82,8 @@ export const assets = {
     uploadArea,
     totalBookingIcon,
     totalRevenueIcon,
-    stayfinderlogo,profile_icon,profilei,fan,entrance,sch,dropdown,upload_area
+    stayfinderlogo,profile_icon,profilei,fan,entrance,sch,dropdown,upload_area,heroImage
+
 }
 
 export const cities = [
