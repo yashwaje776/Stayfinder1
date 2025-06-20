@@ -50,7 +50,7 @@ const Navbar = () => {
 
       <div className="flex items-center gap-5">
         {
-          userData.role !== "user"?<Link to="/host" className="hidden sm:block">
+          userData.role === "host"?<Link to="/host" className="hidden sm:block">
           <button className="px-4 py-2 rounded-md cursor-pointer font-medium">{ "Dashboard"}</button>
         </Link>:<Link to="/add" className="hidden sm:block">
           <button className="px-4 py-2 rounded-md cursor-pointer font-medium">{"Beacome a Host"}</button>
